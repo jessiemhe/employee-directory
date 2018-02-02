@@ -7,10 +7,8 @@ ourRequest.onload = function(){
 }
 ourRequest.send();
 
-
 var click = document.getElementById("card1");
 click.addEventListener("click", function(){
-
     var myGen = function*() {
         var one = yield info[0];
         var two = yield "done";
@@ -19,12 +17,10 @@ click.addEventListener("click", function(){
     var gen = myGen();
     console.log(gen.next());
     console.log(gen.next());
-
 });
 
 var click = document.getElementById("card2");
 click.addEventListener("click", function(){
-
     var myGen = function*() {
         var one = yield info[1];
         var two = yield "done";
@@ -33,12 +29,10 @@ click.addEventListener("click", function(){
     var gen = myGen();
     console.log(gen.next());
     console.log(gen.next());
-
 });
 
 var click = document.getElementById("card3");
 click.addEventListener("click", function(){
-
     var myGen = function*() {
         var one = yield info[2];
         var two = yield "done";
@@ -47,5 +41,4 @@ click.addEventListener("click", function(){
     var gen = myGen();
     console.log(gen.next());
     console.log(gen.next());
-
 });
