@@ -1,1 +1,35 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+	color: rgb(74, 74, 74);
+	font-size: 1.2em;
+	margin: 62px 0 38px 0;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(74, 74, 74);
+	font-size: 1.2em;
+    margin: 62px 0 38px 0;
+    text-align: center;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+  
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
 
